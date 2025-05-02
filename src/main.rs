@@ -6,8 +6,8 @@ use serde::{Serialize, Deserialize};
 
 #[derive(Serialize, Deserialize)]
 struct Account {
-  name: String;
-  password: String;
+  name: String,
+  password: String,
 }
 
 fn main() {
