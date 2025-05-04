@@ -53,3 +53,11 @@ In `Cargo.toml`:
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 ```
+---
+
+## 🔧 Future Improvements
+
+- Support multiple entries instead of overwriting
+- Encrypt password values before saving
+- Add delete/update commands
+- Support retrieving passwords via account name
